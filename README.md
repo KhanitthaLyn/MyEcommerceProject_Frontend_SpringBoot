@@ -55,7 +55,25 @@ This project was built to:
 
 ---
 
+## ⚙️ Setup & Run Instructions
 
+### 🔧 Prerequisites
+Make sure you have installed:
+- Node.js (v18 or higher)
+- Java 17+
+- Maven
+- A running instance of the backend Spring Boot application
+
+---
+
+### 🖥️ Frontend Setup (React)
+```bash
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
 
 
 
