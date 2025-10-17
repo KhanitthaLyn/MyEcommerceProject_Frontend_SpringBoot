@@ -1,11 +1,12 @@
-import { MdArrowBack, MdShoppingCart } from "react-icons/md";
+import { MdArrowBack } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { FiShoppingCart } from "react-icons/fi";
 
 const CartEmpty = () => {
     return (
         <div className="min-h-[800px] flex flex-col items-center justify-center">
             <div className="flex flex-col items-center">
-                <MdShoppingCart size={80} className="text-slate-500 md:text-4xl" />
+                <FiShoppingCart size={80} className="text-slate-500 md:text-4xl" />
                 <div className="text-3xl font-bold text-shadow-sky-700">
                     Your cart is empty
                 </div>

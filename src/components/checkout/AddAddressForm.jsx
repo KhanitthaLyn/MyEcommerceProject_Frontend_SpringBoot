@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import InputField from '../shared/InputField';
-import { FaAddressCard } from 'react-icons/fa';
+import { FaRegAddressBook } from "react-icons/fa";
 import Spinners from '../shared/Spinners';
 import toast from 'react-hot-toast';
 import { useForm } from 'react-hook-form';
@@ -52,7 +52,7 @@ const AddAddressForm = ({ address, setOpenAddressModal }) => {
       >
         {/* Title */}
         <div className="flex justify-center items-center mb-2 font-semibold text-2xl text-slate-800 border-b pb-3">
-          <FaAddressCard className="mr-2 text-blue-600 text-3xl" />
+          <FaRegAddressBook className="mr-2 text-blue-600 text-3xl" />
           {!address?.addressId ? 'Add Address' : 'Update Address'}
         </div>
 
