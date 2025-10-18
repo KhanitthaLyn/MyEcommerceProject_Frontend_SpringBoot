@@ -50,7 +50,7 @@ const AdminProducts = () => {
   return {
     id: item.productId,
     productName: item.productName,
-    description: item.description,
+    description: item.productDescription,
     discount: item.discount,
     image: item.image,
     price: item.price,
