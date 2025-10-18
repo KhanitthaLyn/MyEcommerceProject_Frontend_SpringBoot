@@ -1,5 +1,6 @@
 import ProductCard from "./shared/ProductCard";
 
+
 const products = [
     {
         productName: "Camera Canon EOS 1500D",
@@ -23,6 +24,7 @@ const products = [
         specialPrice: 8.9,
     }
 ];
+
 
 const About = () => {
     return (
@@ -52,6 +54,7 @@ const About = () => {
                 </div>
             </div>
 
+            
             {/* Products Section */}
             <div className="py-7 space-y-8">
                 <h1 className="text-slate-800 text-4xl font-bold text-center mb-12">
@@ -72,6 +75,8 @@ const About = () => {
                     />
                 ))}
             </div>
+
+            
         </div>
     );
 }

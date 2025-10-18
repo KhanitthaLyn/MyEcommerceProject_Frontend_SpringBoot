@@ -25,8 +25,7 @@ const Home = () => {
                 <div className="flex flex-col justify-center items-center space-y-2">
                     <h1 className="text-slate-800 text-4xl font-bold">Products</h1>
                     <span className="text-slate-700">
-                        Discover our handpicked selection of top-rated items just for you
-                    </span>
+                            Check out our top picks, carefully selected to delight you!</span>
                 </div>
 
                 {isLoading ? (
