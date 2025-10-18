@@ -75,5 +75,10 @@ npm install
 # Run development server
 npm run dev
 
+---
+
+<img width="1158" height="284" alt="Screenshot 2568-10-18 at 15 45 08" src="https://github.com/user-attachments/assets/3526f61b-08f9-4506-a4ae-f5769b36427d" />
+
+
 
 
