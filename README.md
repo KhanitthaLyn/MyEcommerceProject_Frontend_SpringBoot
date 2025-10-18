@@ -1,3 +1,5 @@
+<img width="1442" height="691" alt="Screenshot 2568-10-18 at 16 59 34" src="https://github.com/user-attachments/assets/39638768-48cf-4756-ba04-583f0cd39c83" />
+
 # MyEcommerceProject (FrontEnd)
 
 # 🛍️ Frontend React E-Commerce Application – Full Stack Java (Spring Boot + React)
@@ -76,9 +78,4 @@ npm install
 npm run dev
 
 ---
-
-<img width="1158" height="284" alt="Screenshot 2568-10-18 at 15 45 08" src="https://github.com/user-attachments/assets/3526f61b-08f9-4506-a4ae-f5769b36427d" />
-
-
-
 
