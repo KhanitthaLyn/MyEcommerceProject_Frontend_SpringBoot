@@ -53,7 +53,15 @@ This project was built to:
 - Integration with real payment gateway (Stripe / PayPal).  
 - Product image upload & admin dashboard.  
 - Dark mode theme support.  
-- Advanced caching and state management with Redux Toolkit.  
+- Advanced caching and state management with Redux Toolkit.
+- User Reviews & Ratings for customer feedback.
+- Personalized product recommendations based on browsing and purchase history.
+- Refund and order management system for smooth customer service.
+- Wishlist / Favorites to save products for later.
+- Search & filter functionality for easier product discovery.
+- Analytics dashboard for admins showing sales, orders, and popular products.
+- Inventory management to track stock and manage products efficiently.
+  
 
 ---
 
