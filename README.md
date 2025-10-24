@@ -51,7 +51,6 @@ This project was built to:
 ## 🧩 Future Enhancements
 
 - Integration with real payment gateway (Stripe / PayPal).  
-- Product image upload & admin dashboard.  
 - Dark mode theme support.  
 - Advanced caching and state management with Redux Toolkit.
 - User Reviews & Ratings for customer feedback.
