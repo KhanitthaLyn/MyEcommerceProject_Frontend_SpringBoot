@@ -22,6 +22,7 @@ const AddAddressForm = ({ address, setOpenAddressModal }) => {
   });
 
   const onSaveAddressHandler = async (data) => {
+    console.log("📦 Address data to send:", data);
     dispatch(
       addUpdateUserAddress(
         data,

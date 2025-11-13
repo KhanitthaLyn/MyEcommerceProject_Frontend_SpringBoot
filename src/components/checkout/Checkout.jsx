@@ -7,6 +7,7 @@ import { Button } from "@headlessui/react";
 import ErrorPage from "../shared/ErrorPage";
 import Skeleton from "../shared/Skeleton";
 import { toast } from "react-hot-toast";
+import PaymentMethod from "./PaymentMethod";
 
 const Checkout = () => {
   const [activeStep, setActiveStep] = useState(0);
