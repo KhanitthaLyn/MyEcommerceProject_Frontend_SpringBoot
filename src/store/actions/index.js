@@ -249,7 +249,7 @@ export const addPaymentMethod = (method) => {
 export const createUserCart = (sendCartItems) => async (dispatch, getState) => {
     try {
         dispatch({ type: "IS_FETCHING" });
-        await api.post('/cart/create', sendCartItems);
+        await api.post('/carts/create', sendCartItems);
         await dispatch(getUserCart());
     } catch (error) {
         console.log(error);
