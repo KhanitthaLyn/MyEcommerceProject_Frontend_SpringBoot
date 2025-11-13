@@ -11,7 +11,7 @@ const ItemContent = ({
     productId,
     productName,
     image,
-    description,
+    productDescription,
     quantity,
     price,
     discount,
@@ -63,7 +63,7 @@ const ItemContent = ({
                         onClick={() => removeItemFromCart({
                             image,
                             productName,
-                            description,
+                            productDescription,
                             specialPrice,
                             price,
                             productId,
@@ -88,7 +88,7 @@ const ItemContent = ({
                     handeQtyIncrease={() => handleQtyIncrease({
                         image,
                         productName,
-                        description,
+                        productDescription,
                         specialPrice,
                         price,
                         productId,
@@ -97,7 +97,7 @@ const ItemContent = ({
                     handleQtyDecrease={() => {handleQtyDecrease({
                         image,
                         productName,
-                        description,
+                        productDescription,
                         specialPrice,
                         price,
                         productId,

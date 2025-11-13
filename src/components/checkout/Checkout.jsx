@@ -7,6 +7,9 @@ import { Button } from "@headlessui/react";
 import ErrorPage from "../shared/ErrorPage";
 import Skeleton from "../shared/Skeleton";
 import { toast } from "react-hot-toast";
+import StripePayment from "./StripePayment";
+import PaypalPayment from "./PaypalPayment";
+import OrderSummary from "./OrderSummary";
 import PaymentMethod from "./PaymentMethod";
 
 const Checkout = () => {
