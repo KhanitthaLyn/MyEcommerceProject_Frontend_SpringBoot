@@ -1,4 +1,7 @@
 <img width="1442" height="691" alt="Screenshot 2568-10-18 at 16 59 34" src="https://github.com/user-attachments/assets/39638768-48cf-4756-ba04-583f0cd39c83" />
+<img width="1422" height="680" alt="Screenshot 2568-11-23 at 11 32 39" src="https://github.com/user-attachments/assets/ac886dbc-8738-473e-9269-2dc16279c956" />
+<img width="1448" height="710" alt="Screenshot 2568-11-23 at 11 34 36" src="https://github.com/user-attachments/assets/a0128a97-a1fe-42c5-89be-0a9a14e73daf" />
+
 
 # MyEcommerceProject (FrontEnd)
 

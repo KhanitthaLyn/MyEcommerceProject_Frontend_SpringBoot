@@ -23,8 +23,7 @@ const Filter = () => {
     const [category, setCategory] = useState("all");
     const [sortOrder, setSortOrder] = useState("asc");
     const [searchTerm, setSearchterm] = useState("");
-
-    // แก้ typo "soryby" → "sortby"
+    
     useEffect(() => {
         const currentCategory = searchParams.get("category") || "all";
         const currentSortOrder = searchParams.get("sortby") || "asc";
