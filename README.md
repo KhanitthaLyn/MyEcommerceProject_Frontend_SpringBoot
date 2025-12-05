@@ -54,6 +54,7 @@ This project was built to:
 
 ## ⚠️ Limitations / Known Issues (Frontend)
 ⚠️ This project reflects my real learning journey. Some parts of the code may not yet follow perfect clean-code standards, as my current priority is to deeply understand the full system behavior before performing large-scale refactoring.
+
 ⚠️ Refactoring is being done incrementally as my understanding of the system grows.
 
 1. Authentication is not fully implemented
