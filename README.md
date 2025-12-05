@@ -96,7 +96,7 @@ This project was built to:
 - No CSRF strategy
 - No secure cookie handling
 - No UI throttling / anti-abuse patterns
-- 
+  
 ---
 
 ## ⚙️ Setup & Run Instructions
