@@ -1,4 +1,5 @@
-<img width="1442" height="691" alt="Screenshot 2568-10-18 at 16 59 34" src="https://github.com/user-attachments/assets/39638768-48cf-4756-ba04-583f0cd39c83" />
+
+<img width="1442" height="691" alt="502851151-39638768-48cf-4756-ba04-583f0cd39c83" src="https://github.com/user-attachments/assets/3c426a93-9c8c-4d7d-b516-e32bb2b0c400" />
 <img width="1422" height="680" alt="Screenshot 2568-11-23 at 11 32 39" src="https://github.com/user-attachments/assets/ac886dbc-8738-473e-9269-2dc16279c956" />
 <img width="1448" height="710" alt="Screenshot 2568-11-23 at 11 34 36" src="https://github.com/user-attachments/assets/a0128a97-a1fe-42c5-89be-0a9a14e73daf" />
 
@@ -51,23 +52,51 @@ This project was built to:
 
 ---
 
-## 🧩 Future Enhancements
-
-- Integration with real payment gateway (Stripe / PayPal).  
-- Dark mode theme support.  
-- Advanced caching and state management with Redux Toolkit.
-- User Reviews & Ratings for customer feedback.
-- Personalized product recommendations based on browsing and purchase history.
-- Refund and order management system for smooth customer service.
-- Wishlist / Favorites to save products for later.
-- Search & filter functionality for easier product discovery.
-- Analytics dashboard for admins showing sales, orders, and popular products.
-- Inventory management to track stock and manage products efficiently.
-
----
+## ⚠️ Limitations / Known Issues (Frontend)
 ⚠️ This project reflects my real learning journey. Some parts of the code may not yet follow perfect clean-code standards, as my current priority is to deeply understand the full system behavior before performing large-scale refactoring.
-
 ⚠️ Refactoring is being done incrementally as my understanding of the system grows.
+⚠️ Limitations / Known Issues (Frontend)
+
+1. Authentication is not fully implemented
+- No token refresh mechanism
+- No protected routes or session persistence
+- Missing AuthContext or middleware-like guard
+
+2. Basic state management
+- Scattered useState instead of a centralized store
+- Cart/Auth/UI states are not synchronized
+- Hard to scale for larger applications
+
+3. API layer is not fully abstracted
+- Duplicate fetch/axios calls across components
+- Missing global error handler and retry logic
+- No standardized response wrapper
+
+4. Minimal UI/UX
+- No loading states, skeleton screens, or toast notifications
+- Responsiveness is incomplete
+- No design system or reusable UI components
+
+5. Limited error handling
+- No global error boundary
+- No form validation on the frontend
+- API errors are not surfaced to the user
+
+6. Folder structure needs improvement
+- Current structure is page/component-based
+- Should move to feature-based architecture for scalability
+(e.g., /auth, /cart, /products)
+
+7. No deployment optimization
+- Missing Dockerfile for frontend
+- No CI/CD pipeline
+- No performance optimizations (lazy loading, caching, code splitting)
+
+8. Security considerations missing
+- No CSRF strategy
+- No secure cookie handling
+- No UI throttling / anti-abuse patterns
+- 
 ---
 
 ## ⚙️ Setup & Run Instructions
